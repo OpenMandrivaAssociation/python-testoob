@@ -11,6 +11,7 @@ Source0: %{module}-%{version}.tar.bz2
 License: Apache License
 Group: Development/Python
 Url: http://testoob.sourceforge.net
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
 
