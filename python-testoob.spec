@@ -1,7 +1,7 @@
 %define module testoob
 %define name python-%{module}
 %define version 1.13
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Advanced Python unit testing framework
 Name: %{name}
