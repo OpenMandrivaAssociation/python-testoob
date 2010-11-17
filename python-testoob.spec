@@ -33,7 +33,8 @@ and built to be easy to use and extend.
 %clean
 %__rm -rf %{buildroot}
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root)
 %doc README docs/*
-
+%_bindir/*
+%py_puresitedir/*
